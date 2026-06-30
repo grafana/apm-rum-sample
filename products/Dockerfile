@@ -1,5 +1,5 @@
-# syntax=docker/dockerfile:1.4
-FROM --platform=$BUILDPLATFORM python:3.10-alpine
+# syntax=docker/dockerfile:1.4@sha256:9ba7531bd80fb0a858632727cf7a112fbfd19b17e94c4e84ced81e24ef1a0dbc
+FROM --platform=$BUILDPLATFORM python:3.10-alpine@sha256:cb0f3c7df8d980aed5c2a84cc6b83cdcd3ef5a359a2ff68ec750946e86fe281a
 
 EXPOSE 8002
 
